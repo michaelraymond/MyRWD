@@ -16,3 +16,48 @@
  #content{background-color: #f7f2da; padding-left: 1em; padding-right: 1em; margin-bottom: 10px;}
  nav{background-color: gray; margin: 0; padding: 0;}
  nav ul{padding-top: 3padding-bottom: 3px; padding-left: 10px; padding-right: 10px; list-style-type: none;}
+ footer {
+  clear: both;
+}
+/* ----- Top-Right-Floated-Navbar ----- */
+nav ul li{display: inline-block;}
+header{
+  float: left;
+  width: 400px;
+}
+nav{
+  float: left;
+  width: 175px;
+}
+#content {
+  clear: both;
+  
+}
+
+/* -- Ad Styling -----*/
+skyscraper-ad {
+  height: 160px;
+  width: 600px;
+  background-color: silver;
+}
+
+/* ----- Three Column Fluid Layout -----*/
+
+#page-wrapper {
+  width: 960px;
+}
+nav{
+  float: left; width: 175px; -moz-box-sizing: border-box;}
+}
+#content {
+  float: left; width: 593px; 
+}
+
+/*----- One-Column Mobile Layout -----*/
+#fluids-column, nav, #content, #sidebar {
+  width: 100%;}
+  
+  
+  @media all and (min-width: 525px){
+  
+}
